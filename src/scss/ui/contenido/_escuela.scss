@@ -2,7 +2,8 @@
 @use 'base/mixins' as m;
 
 .escuela {
-    @include m.bgImage('../img/chef_bg.jpg');
+    // @include m.bgImage('../img/chef_bg.jpg');
+    @include m.bgImage('../../../../build/img/chef_bg.jpg');
     padding: 20rem 0;
     text-align: center;
     color: v.$blanco;
