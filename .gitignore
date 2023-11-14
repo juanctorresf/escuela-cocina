@@ -1,4 +1,2 @@
-build/img
 node_modules
 src/img
-package-lock.json
